@@ -1,0 +1,1638 @@
+[
+  {
+    "hot coffees": {
+      "id": 1,
+      "items": [
+        {
+          "id": 1,
+          "name": "Caffè Americano",
+          "photoName": "/coffees/americano.avif",
+          "detailedPhotoName": "/detailed/americano.avif",
+          "description": "Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.",
+          "stars": "200",
+          "calories": "15",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Americanos",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 2,
+          "name": "Featured Blonde Roast",
+          "photoName": "/coffees/featured-blonde-roast.avif",
+          "detailedPhotoName": "/detailed/featured-blonde-roast.avif",
+          "description": "Discover one of our featured Starbucks® Blonde Roasts, radiant blends that awaken your senses with delicate flavors and vibrant aromas. These enchanting brews deliver a smooth and invigorating experience that will brighten your mornings and elevate your coffee moments.",
+          "stars": "100",
+          "calories": "5",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 3,
+          "name": "Featured Medium Roast Pike Place® Roast",
+          "photoName": "/coffees/featured-medium-roast.avif",
+          "detailedPhotoName": "/detailed/featured-medium-roast.avif",
+          "description": "From our first store in Seattle’s Pike Place Market to our coffeehouses around the world, customers requested a freshly brewed coffee they could enjoy throughout the day. In 2008 our master blenders and roasters created this for you—a smooth, well-rounded blend of Latin American coffees with subtly rich flavors of chocolate and toasted nuts, it’s served fresh every day at a Starbucks® store near you.",
+          "stars": "100",
+          "calories": "5",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 4,
+          "name": "Featured Dark Roast",
+          "photoName": "/coffees/featured-dark-roast.avif",
+          "detailedPhotoName": "/detailed/featured-dark-roast.avif",
+          "description": "This full-bodied dark roast coffee has the bold, robust flavors to showcase our roasting and blending artistry.",
+          "stars": "100",
+          "calories": "5",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": true,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 5,
+          "name": "Featured Blonde Roast Veranda Blend®",
+          "photoName": "/coffees/veranda-blend.avif",
+          "detailedPhotoName": "/detailed/veranda-blend.avif",
+          "description": "Soft, woodsy aromas mingle with bright notes of spiced orange and fig, highlighting a maple-syrup sweetness. The perfect complement to the perfect season.",
+          "stars": "100",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 6,
+          "name": "Featured Decaf Roast Decaf Pike Place® Roast",
+          "photoName": "/coffees/veranda-blend.avif",
+          "detailedPhotoName": "/detailed/veranda-blend.avif",
+          "description": "From our first store in Seattle’s Pike Place Market to our coffeehouses around the world, customers requested a freshly brewed coffee they could enjoy throughout the day. In 2008 our master blenders and roasters created this for you—a smooth, well-rounded blend of Latin American coffees with subtly rich flavors of chocolate and toasted nuts, it’s served fresh every day at a Starbucks® store near you. (Decaf as you like it.)",
+          "stars": "100",
+          "calories": "5",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 7,
+          "name": "Featured Dark Roast Caffè Verona®",
+          "photoName": "/coffees/veranda-blend.avif",
+          "detailedPhotoName": "/detailed/veranda-blend.avif",
+          "description": "Well-balanced and rich with a dark cocoa texture. Try it with a piece of dark chocolate to bring out even more sweetness.",
+          "stars": "100",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 8,
+          "name": "Caffè Misto",
+          "photoName": "/coffees/misto.avif",
+          "detailedPhotoName": "/detailed/misto.avif",
+          "description": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+          "stars": "200",
+          "calories": "110",
+          "sugar": "10",
+          "fat": "4",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 9,
+          "name": "Clover Vertica Christmas Blend",
+          "photoName": "/coffees/clover-vertica-christmas.avif",
+          "detailedPhotoName": "/detailed/clover-vertica-christmas.avif",
+          "description": "Distinctive cedary, spicy layers balanced by a sweet, rich smoothness.",
+          "stars": "100",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 10,
+          "name": "Starbucks Reserve® Christmas 2023 Clover®",
+          "photoName": "/coffees/starbucks-reserve-christmas.avif",
+          "detailedPhotoName": "/detailed/starbucks-reserve-christmas.avif",
+          "description": "Cedar and leather aromas highlight notes of lemon zest, maple and candied ginger with a syrupy mouthfeel. Our master blenders have joined three remarkable coffees into a blend as rare and memorable as the season. Starting with hand-selected beans from Hacienda Alsacia, our farm in Costa Rica, we add perfectly aged Sumatran beans and full-bodied coffee from the Aceh region of Indonesia. A special holiday blend that pairs well with old friends and new traditions.",
+          "stars": "200",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": true,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 11,
+          "name": "Starbucks® Christmas Blonde Roast Clover Vertica™ Brewed Coffee",
+          "photoName": "/coffees/christmas.avif",
+          "detailedPhotoName": "/detailed/christmas.avif",
+          "description": "Perfect for any occasion and any celebration, Starbucks® Christmas Blonde Roast is crafted with lightly roasted beans from West Java, Papua New Guinea and East Africa. Soft, woodsy aromas mingle with bright notes of spiced orange and fig, highlighting a maple-syrup sweetness. The perfect complement to the perfect season.",
+          "stars": "100",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 12,
+          "name": "Clover® Malawi Sable Farms Starbucks Reserve®",
+          "photoName": "/coffees/malawi.avif",
+          "detailedPhotoName": "/detailed/malawi.avif",
+          "description": "Citrus, Cedar & Ginger Sable Farm has a global reputation for producing top-quality coffee with environmentally-thoughtful practices. It’s also a pioneer in using solar coffee dryers!",
+          "stars": "200",
+          "calories": "5",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 13,
+          "name": "Clover® Starbucks Reserve® Vietnam Da Lat",
+          "photoName": "/coffees/vietnam.avif",
+          "detailedPhotoName": "/detailed/vietnam.avif",
+          "description": "Cocoa Peel and Toffee Nut Anchored by the city of Da Lat, Vietnam’s Lam Dong Province provides a dreamlike setting for coffee cultivation—mist-shrouded pine forests, cool temperatures and volcanic soil. Farmers load just-picked coffee cherries onto small motorbikes and travel over rugged terrain to deliver high-quality crops. Their dedication culminates in this—a coffee every bit as distinctive as the land from which it came.",
+          "stars": "200",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Brewed Coffees",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 14,
+          "name": "Cappuccino",
+          "photoName": "/coffees/cappuccino.avif",
+          "detailedPhotoName": "/detailed/cappuccino.avif",
+          "description": "Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft.",
+          "stars": "200",
+          "calories": "140",
+          "sugar": "12",
+          "fat": "5",
+          "type": "Cappuccinos",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 15,
+          "name": "Espresso",
+          "photoName": "/coffees/espresso.avif",
+          "detailedPhotoName": "/detailed/espresso/avof",
+          "description": "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.",
+          "stars": "200",
+          "calories": "10",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Espresso Shots",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 16,
+          "name": "Espresso Con Panna",
+          "photoName": "/coffees/espresso-con-panna.avif",
+          "detailedPhotoName": "/detailed/espresso-con-panna.avif",
+          "description": "Espresso meets a dollop of whipped cream to enhance the rich and caramelly flavors of a straight-up shot.",
+          "stars": "200",
+          "calories": "35",
+          "sugar": "0",
+          "fat": "2.5",
+          "type": "Espresso Shots",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 17,
+          "name": "Flat White",
+          "photoName": "/coffees/flat-white.avif",
+          "detailedPhotoName": "/detailed/flat-white.avif",
+          "description": "Smooth ristretto shots of espresso get the perfect amount of steamed whole milk to create a not-too-strong, not-too-creamy, just-right flavor.",
+          "stars": "200",
+          "calories": "170",
+          "sugar": "13",
+          "fat": "9",
+          "type": "Flat Whites",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 18,
+          "name": "Honey Almondmilk Flat White",
+          "photoName": "/coffees/honey-almond-milk.avif",
+          "detailedPhotoName": "/detailed/honey-almond-milk.avif",
+          "description": "This flat white intentionally pairs almondmilk and Starbucks® Blonde Espresso Roast with a hint of honey, making a perfect amount of creamy, nutty sweetness.",
+          "stars": "200",
+          "calories": "120",
+          "sugar": "18",
+          "fat": "4",
+          "type": "Flat Whites",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 19,
+          "name": "Pumpkin Spice Latte",
+          "photoName": "/coffees/pumpkin-latte.avif",
+          "detailedPhotoName": "/detailed/pumpkin-latte.avif",
+          "description": "Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin-pie spices.",
+          "stars": "200",
+          "calories": "390",
+          "sugar": "50",
+          "fat": "14",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 20,
+          "name": "Oleato™ Caffé Latte with Oatmilk",
+          "photoName": "/coffees/oleato.avif",
+          "detailedPhotoName": "/detailed/oleato.avif",
+          "description": "Starbucks Blonde Espresso infused with Partanna® extra virgin olive oil, steamed with oatmilk. Velvety smooth. Deliciously lush.",
+          "stars": "200",
+          "calories": "330",
+          "sugar": "6",
+          "fat": "23",
+          "type": "Lattes",
+          "unavailable": true,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 21,
+          "name": "Caffè Latte",
+          "photoName": "/coffees/latte.avif",
+          "detailedPhotoName": "/detailed/latte.avif",
+          "description": "Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect milk-forward warm-up.",
+          "stars": "200",
+          "calories": "190",
+          "sugar": "18",
+          "fat": "7",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 22,
+          "name": "Cinnamon Dolce Latte",
+          "photoName": "/coffees/cinnamon-dolce-latte.avif",
+          "detailedPhotoName": "/detailed/cinammon-dolce-latte.avif",
+          "description": "We add freshly steamed milk and cinnamon dolce-flavored syrup to our classic espresso, topped with sweetened whipped cream and a cinnamon dolce topping to bring you specialness in a treat.",
+          "stars": "200",
+          "calories": "340",
+          "sugar": "40",
+          "fat": "14",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 23,
+          "name": "Starbucks Reserve® Latte",
+          "photoName": "/coffees/reserve-latte.avif",
+          "detailedPhotoName": "/detailed/reserve-latte.avif",
+          "description": "Small-lot Starbucks Reserve® espresso balanced with steamed milk and a light layer of foam forms a perfectly handcrafted latte.",
+          "stars": "200",
+          "calories": "230",
+          "sugar": "18",
+          "fat": "12",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 24,
+          "name": "Starbucks Reserve® Hazelnut Bianco Latte",
+          "photoName": "/coffees/hazelnut-latte.avif",
+          "detailedPhotoName": "/detailed/hazelnut-latte.avif",
+          "description": "House-made hazelnut-praline-infused milk combined with our small-lot Starbucks Reserve® espresso—a true character of sweetly nut love.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "36",
+          "fat": "18",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 25,
+          "name": "Starbucks® Blonde Vanilla Latte",
+          "photoName": "/coffees/latte.avif",
+          "detailedPhotoName": "/detailed/latte.avif",
+          "description": "Extra-smooth Starbucks® Blonde Espresso, velvety steamed milk and vanilla syrup come together to create a delightful new twist on a beloved espresso classic. An ideal cup for those who prefer a lighter-roasted coffee.",
+          "stars": "200",
+          "calories": "250",
+          "sugar": "35",
+          "fat": "6",
+          "type": "Lattes",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 26,
+          "name": "Apple Crisp Oatmilk Macchiato",
+          "photoName": "/coffees/oatmilk-macchiato.avif",
+          "detailedPhotoName": "/detailed/oatmilk-macchiato.avif",
+          "description": "Layered flavors of apple, cinnamon, oats and brown sugar harmonize with Starbucks® Blonde Espresso Roast, creamy oatmilk and spiced-apple drizzle to create a delicious apple crisp you can sip. A nostalgic autumn pick-me-up.",
+          "stars": "200",
+          "calories": "320",
+          "sugar": "29",
+          "fat": "10",
+          "type": "Macchiatos",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 27,
+          "name": "Caramel Macchiato",
+          "photoName": "/coffees/caramel-macchiato.avif",
+          "detailedPhotoName": "/detailed/caramel-macchiato.avif",
+          "description": "Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish.",
+          "stars": "200",
+          "calories": "250",
+          "sugar": "33",
+          "fat": "7",
+          "type": "Macchiatos",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 28,
+          "name": "Espresso Macchiato",
+          "photoName": "/coffees/espresso-macchiato.avif",
+          "detailedPhotoName": "/detailed/espresso-macchiato.avif",
+          "description": "Our rich espresso marked with dollop of steamed milk and foam. A European-style classic.",
+          "stars": "200",
+          "calories": "15",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Macchiatos",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 29,
+          "name": "Caffè Mocha",
+          "photoName": "/coffees/mocha.avif",
+          "detailedPhotoName": "/detailed/mocha.avif",
+          "description": "Our rich, full-bodied espresso combined with bittersweet mocha sauce and steamed milk, then topped with sweetened whipped cream. The classic coffee drink that always sweetly satisfies.",
+          "stars": "200",
+          "calories": "370",
+          "sugar": "35",
+          "fat": "15",
+          "type": "Mochas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 30,
+          "name": "Starbucks Reserve® Dark Chocolate Mocha",
+          "photoName": "/coffees/dark-chocolate-mocha.avif",
+          "detailedPhotoName": "/detailed/dark-chocolate-mocha.avif",
+          "description": "Our small-lot Starbucks Reserve® espresso combined with cocoa, ground chocolate and topped with steamed milk delivers a brilliant combination of sweetness.",
+          "stars": "200",
+          "calories": "320",
+          "sugar": "33",
+          "fat": "14",
+          "type": "Mochas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 31,
+          "name": "White Chocolate Mocha",
+          "photoName": "/coffees/white-chocolate-mocha.avif",
+          "detailedPhotoName": "/detailed/white-chocolate-mocha.avif",
+          "description": "Our signature espresso meets white chocolate sauce and steamed milk, and then is finished off with sweetened whipped cream to create this supreme white chocolate delight.",
+          "stars": "200",
+          "calories": "430",
+          "sugar": "53",
+          "fat": "18",
+          "type": "Mochas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        }
+      ],
+      "photoName": "/cats/category-coffee.avif",
+      "link": "/menu/hot-coffees",
+      "name": "hot coffees"
+    }
+  },
+  {
+    "hot teas": {
+      "id": 2,
+      "items": [
+        {
+          "id": 32,
+          "name": "Gingerbread Oatmilk Chai",
+          "photoName": "/teas/gingerbread-chai.avif",
+          "detailedPhotoName": "/detailed/gingerbread-chai.avif",
+          "description": "Warm gingerbread notes, a cozy blend of chai spices and creamy oatmilk come together in a Tea Latte to create a unique, festive, feel-good moment.",
+          "stars": "200",
+          "calories": "310",
+          "sugar": "54",
+          "fat": "5",
+          "type": "Chai Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 33,
+          "name": "Chai Tea Latte",
+          "photoName": "/teas/chai-latte.avif",
+          "detailedPhotoName": "/detailed/chai-latte.avif",
+          "description": "Black tea infused with cinnamon, clove and other warming spices is combined with steamed milk and topped with foam for the perfect balance of sweet and spicy. An iconic chai cup.",
+          "stars": "200",
+          "calories": "240",
+          "sugar": "42",
+          "fat": "4.5",
+          "type": "Chai Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 34,
+          "name": "Chai Tea",
+          "photoName": "/teas/chai-tea.avif",
+          "detailedPhotoName": "/detailed/chai-tea.avif",
+          "description": "Black tea infused with warm clove, cardamom, cinnamon and ginger notes. A bold, distinctive chai tea.",
+          "stars": "100",
+          "calories": "0",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Chai Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 35,
+          "name": "Earl Grey Tea",
+          "photoName": "/teas/earl-grey.avif",
+          "detailedPhotoName": "/detailed/earl-grey.avif",
+          "description": "We take a strong black tea base and add the essence of bergamot, a citrus fruit with subtle lemon and floral lavender notes, to create this aromatically awesome tea flavor.",
+          "stars": "100",
+          "calories": "0",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Black Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 36,
+          "name": "Teavana® London Fog Tea Latte",
+          "photoName": "/teas/london-fog.avif",
+          "detailedPhotoName": "/detailed/london-fog.avif",
+          "description": "Bright, citrusy spark of Italian bergamot blends with subtle hints of lavender, vanilla syrup, and steamed milk for this frothy reinvention of classic Earl Grey tea.",
+          "stars": "200",
+          "calories": "180",
+          "sugar": "29",
+          "fat": "4",
+          "type": "Black Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 37,
+          "name": "Royal English Breakfast Tea",
+          "photoName": "/teas/royal-english-breakfast.avif",
+          "detailedPhotoName": "/detailed/royal-english-breakfast.avif",
+          "description": "Each sip of this beloved morning black tea unfolds to reveal the complexity of the high-grown full leaves. An elegant, time-honored classic that brings a royal nod to every cup.",
+          "stars": "100",
+          "calories": "0",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Black Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 38,
+          "name": "Royal English Breakfast Tea Latte",
+          "photoName": "/teas/royal-english-latte.avif",
+          "detailedPhotoName": "/detailed/royal-english-latte.avif",
+          "description": "A select blend of rich, full-leaf black teas from India and Sri Lanka sweetened with liquid cane sugar and topped with steamed milk and a velvety foam. Each and every sip—smooth and silky.",
+          "stars": "200",
+          "calories": "150",
+          "sugar": "21",
+          "fat": "4",
+          "type": "Black Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 39,
+          "name": "Emperor’s Clouds & Mist®",
+          "photoName": "/teas/emperors-cloud.avif",
+          "detailedPhotoName": "/detailed/emperors-cloud.avif",
+          "description": "This gently smoky, softly sweet green tea—cultivated at 3,500 feet and shrouded in ethereal clouds and mist—is tasty no matter what language you say it in.",
+          "stars": "100",
+          "calories": "0",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Green Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 40,
+          "name": "Matcha Tea Latte",
+          "photoName": "/teas/matcha-tea.avif",
+          "detailedPhotoName": "/detailed/matcha-tea.avif",
+          "description": "Smooth and creamy matcha sweetened just right and served with steamed milk. This favorite will transport your senses to pure green delight.",
+          "stars": "200",
+          "calories": "240",
+          "sugar": "32",
+          "fat": "7",
+          "type": "Green Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 41,
+          "name": "Honey Citrus Mint Tea",
+          "photoName": "/teas/honey-citrus.avif",
+          "detailedPhotoName": "/detailed/honey-cirtrus",
+          "description": "A customer creation so popular it’s now on the menu. Green tea with flavors of lemon verbena, candied pineapple, chamomile blossom, and a hint of spearmint served with steamed lemonade and a touch of honey for a tea that comforts from the inside out.",
+          "stars": "200",
+          "calories": "130",
+          "sugar": "30",
+          "fat": "0",
+          "type": "Green Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 42,
+          "name": "Mint Majesty®",
+          "photoName": "/teas/mint-majesty.avif",
+          "detailedPhotoName": "/detailed/mint-majesty.avif",
+          "description": "A blend of mint and a pinch of lemon verbena creates a refreshing flavor that's supercool for a caffeine-free herbal tea.",
+          "stars": "100",
+          "calories": "0",
+          "sugar": "0",
+          "fat": "0",
+          "type": "Herbal Teas",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        }
+      ],
+      "photoName": "/cats/category-tea.avif",
+      "link": "/menu/hot-teas",
+      "name": "Hot Teas"
+    }
+  },
+  {
+    "hot drinks": {
+      "id": 3,
+      "items": [
+        {
+          "id": 43,
+          "name": "Peppermint Hot Chocolate",
+          "photoName": "/drinks/peppermint-hot-chocolate.avif",
+          "detailedPhotoName": "/detailed/peppermint-hot-chocolate.avif",
+          "description": "A big welcome back to our classic holiday hot chocolate—lovingly made with chocolaty mocha sauce, peppermint-flavored syrup and steamed milk and sweetly topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "440",
+          "sugar": "56",
+          "fat": "16",
+          "type": "Hot Chocolates",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 44,
+          "name": "Peppermint White Hot Chocolate",
+          "photoName": "/drinks/peppermint-white-chocolate.avif",
+          "detailedPhotoName": "/detailed/peppermint-white-chocolate.avif",
+          "description": "A sweet twist on holiday hot chocolate—white chocolate mocha sauce, peppermint-flavored syrup and steamed milk, topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "520",
+          "sugar": "74",
+          "fat": "19",
+          "type": "Hot Chocolates",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 45,
+          "name": "Hot Chocolate",
+          "photoName": "/drinks/hot-chocolate.avif",
+          "detailedPhotoName": "/detailed/hot-chocolate.avif",
+          "description": "Steamed milk with chocolate-flavored syrups. Topped with sweetened whipped cream and chocolate-flavored drizzle. A timeless classic made to sweeten your spirits.",
+          "stars": "200",
+          "calories": "370",
+          "sugar": "37",
+          "fat": "16",
+          "type": "Hot Chocolates",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 46,
+          "name": "White Hot Chocolate",
+          "photoName": "/drinks/white-hot-chocolate.avif",
+          "detailedPhotoName": "/detailed/white-hot-chocolate.avif",
+          "description": "A traditional hot chocolate beverage made with white chocolate sauce and steamed milk, topped with whipped cream.",
+          "stars": "200",
+          "calories": "440",
+          "sugar": "55",
+          "fat": "19",
+          "type": "Hot Chocolates",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 47,
+          "name": "Caramel Apple Spice",
+          "photoName": "/drinks/caramel-apple-spice.avif",
+          "detailedPhotoName": "/detailed/caramel-apple-spice.avif",
+          "description": "Steamed apple juice complemented with cinnamon syrup, whipped cream and a caramel sauce drizzle.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "70",
+          "fat": "8",
+          "type": "Juice",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 48,
+          "name": "Steamed Apple Juice",
+          "photoName": "/drinks/steamed-apple-juice.avif",
+          "detailedPhotoName": "/detailed/steamed-apple-juice.avif",
+          "description": "Freshly steamed 100% apple juice (not from concentrate). Feel the apple goodness in this classic fruit drink that will soothe and embolden your day.",
+          "stars": "200",
+          "calories": "220",
+          "sugar": "50",
+          "fat": "0",
+          "type": "Juice",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 49,
+          "name": "Chestnut Praline Crème",
+          "photoName": "/drinks/chestnut-praline-creme.avif",
+          "detailedPhotoName": "/detailed/chestnut-praline-creme.avif",
+          "description": "Steamed milk and flavors of caramelized chestnuts and spices—topped with whipped cream and spiced praline crumbs—come together for this festive moment.",
+          "stars": "200",
+          "calories": "350",
+          "sugar": "41",
+          "fat": "15",
+          "type": "Steamers",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 50,
+          "name": "Caramel Brulée Crème",
+          "photoName": "/drinks/caramel-brulee-creme.avif",
+          "detailedPhotoName": "/detailed/caramel-brulee-creme.avif",
+          "description": "Steamed milk and rich caramel brulée sauce deliciously finished with whipped cream and a caramel brulée topping—an ode to holiday sweetness.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "50",
+          "fat": "14",
+          "type": "Steamers",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 51,
+          "name": "Pumpkin Spice Crème",
+          "photoName": "/drinks/pumpkin-spice-creme.avif",
+          "detailedPhotoName": "/detailed/pumpkin-spice-creme.avif",
+          "description": "We combine steamed milk with flavors of pumpkin, cinnamon, nutmeg and clove, then top it all off with whipped cream to create this amazing, coffee-free fall favorite.",
+          "stars": "200",
+          "calories": "400",
+          "sugar": "52",
+          "fat": "15",
+          "type": "Steamers",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 52,
+          "name": "Steamed Milk",
+          "photoName": "/drinks/steamed-milk.avif",
+          "detailedPhotoName": "/detailed/steamed-milk.avif",
+          "description": "Enjoy a warm cup of skim, 2%, soy, almond or coconutmilk steamed for your sipping pleasure.",
+          "stars": "200",
+          "calories": "200",
+          "sugar": "19",
+          "fat": "8",
+          "type": "Steamers",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 53,
+          "name": "Vanilla Crème",
+          "photoName": "/drinks/vanilla-creme.avif",
+          "detailedPhotoName": "/detailed/vanilla-creme.avif",
+          "description": "A smooth, frothy vanilla flavoured luxury. For those times when you’d rather not indulge in the rich flavour of our world-famous espresso—but still desire a hot, creamy vanilla beverage.",
+          "stars": "200",
+          "calories": "350",
+          "sugar": "43",
+          "fat": "14",
+          "type": "Steamers",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        }
+      ],
+      "photoName": "/cats/category-drinks.avif",
+      "link": "/menu/hot-drinks",
+      "name": "Hot Drinks"
+    }
+  },
+  {
+    "Frappuccino® Blended Beverages": {
+      "id": 4,
+      "items": [
+        {
+          "id": 54,
+          "name": "Sugar Cookie Almondmilk Frappuccino® Blended Beverage",
+          "photoName": "/frapps/sugar-cookie-frappuccino.avif",
+          "detailedPhotoName": "/detailed/sugar-cookie-frappuccino.avif",
+          "description": "Sugar cookie-flavored syrup combined with Frappuccino® Roast coffee and almondmilk and blended with ice, topped with whipped cream and red and green sprinkles.",
+          "stars": "200",
+          "calories": "370",
+          "sugar": "58",
+          "fat": "13",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 55,
+          "name": "Apple Crisp Oatmilk Frappuccino® Blended Beverage",
+          "photoName": "/frapps/apple-crisp-frapp.avif",
+          "detailedPhotoName": "/detailed/apple-crisp-frapp.avif",
+          "description": "Flavors of apple, cinnamon and brown sugar blended with coffee, oatmilk and ice. Topped with spiced-apple drizzle and whipped cream.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "60",
+          "fat": "15",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 56,
+          "name": "Pumpkin Spice Frappuccino® Blended Beverage",
+          "photoName": "/frapps/pumpkin-spice-frapp.avif",
+          "detailedPhotoName": "/detailed/pumpkin-spice-frapp.avif",
+          "description": "Pumpkin plus traditional fall spice flavors, blended with coffee, milk and ice and topped with whipped cream and pumpkin-pie spice. Think of it as the ultimate fall care package.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "65",
+          "fat": "15",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 57,
+          "name": "Caramel Brulée Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caramel-brulee-frapp.avif",
+          "detailedPhotoName": "/detailed/caramel-brulee-frapp.avif",
+          "description": "Frappuccino® Roast coffee, milk and ice blended with rich caramel brulée sauce, and then topped with whipped cream and our crunchy caramel brulée bits for extra-gooey goodness.",
+          "stars": "200",
+          "calories": "400",
+          "sugar": "58",
+          "fat": "15",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 58,
+          "name": "Chestnut Praline Frappuccino® Blended Beverage",
+          "photoName": "/frapps/chestnut-praline-frapp.avif",
+          "detailedPhotoName": "/detailed/chestnut-praline-frapp.avif",
+          "description": "A blissful world of deliciousness: festive flavors of caramelized chestnuts and spices blended with Frappuccino® Roast coffee, milk and ice, and topped with whipped cream and spiced praline crumbs.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "56",
+          "fat": "15",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 59,
+          "name": "Peppermint Mocha Frappuccino® Blended Beverage",
+          "photoName": "/frapps/peppermint-mocha-frapp.avif",
+          "detailedPhotoName": "/detailed/peppermint-mocha-frapp.avif",
+          "description": "A delectable blend of chocolaty-pepperminty perfection in every cool sip—Frappuccino® Roast coffee, mocha sauce, peppermint-flavored syrup, milk and ice, topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "430",
+          "sugar": "63",
+          "fat": "16",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 60,
+          "name": "Peppermint White Chocolate Mocha Frappuccino® Blended Beverage",
+          "photoName": "/frapps/peppermint-white-chocolate-frapp.avif",
+          "detailedPhotoName": "/detailed/peppermint-white-chocolate-frapp",
+          "description": "A delectable blend of white chocolaty-pepperminty perfection in every cool sip—Frappuccino® Roast coffee, white chocolate mocha sauce, peppermint-flavored syrup, milk and ice, topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "470",
+          "sugar": "73",
+          "fat": "17",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 61,
+          "name": "Mocha Cookie Crumble Frappuccino®",
+          "photoName": "/frapps/mocha-cookie-frapp.avif",
+          "detailedPhotoName": "/detailed/mocha-cookie-frapp.avif",
+          "description": "Frappuccino® Roast coffee, mocha sauce and Frappuccino® chips blended with milk and ice, layered on top of whipped cream and chocolate cookie crumble and topped with vanilla whipped cream, mocha drizzle and even more chocolate cookie crumble. Each sip is as good as the last . . . all the way to the end.",
+          "stars": "200",
+          "calories": "480",
+          "sugar": "55",
+          "fat": "24",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 62,
+          "name": "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caramel-ribbon-frapp.avif",
+          "detailedPhotoName": "/detailed/caramel-ribbon-frapp.avif",
+          "description": "Buttery caramel syrup blended with coffee, milk and ice, then topped with a layer of dark caramel sauce, whipped cream, caramel drizzle and a crunchy caramel-sugar topping—oh-so-beautifully delicious.",
+          "stars": "200",
+          "calories": "470",
+          "sugar": "60",
+          "fat": "22",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 63,
+          "name": "Espresso Frappuccino® Blended Beverage",
+          "photoName": "/frapps/espresso-frapp.avif",
+          "detailedPhotoName": "/detailed/espresso-frapp.avif",
+          "description": "Coffee is combined with a shot of espresso and milk, then blended with ice to give you a nice little jolt and lots of sipping joy.",
+          "stars": "200",
+          "calories": "210",
+          "sugar": "42",
+          "fat": "2.5",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 64,
+          "name": "Caffè Vanilla Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caffe-vanilla-frapp.avif",
+          "detailedPhotoName": "/detailed/caffe-vanilla-frapp.avif",
+          "description": "We take Frappuccino® roast coffee and vanilla bean powder, combine them with milk and ice, topped with whipped cream. Tastes like happiness.",
+          "stars": "200",
+          "calories": "410",
+          "sugar": "63",
+          "fat": "15",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 65,
+          "name": "Caramel Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caramel-frapp.avif",
+          "detailedPhotoName": "/detailed/caramel-frapp.avif",
+          "description": "Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top. To change things up, try it affogato-style with a hot espresso shot poured right over the top.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "54",
+          "fat": "16",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 66,
+          "name": "Coffee Frappuccino® Blended Beverage",
+          "photoName": "/frapps/coffee-frapp.avif",
+          "detailedPhotoName": "/detailed/coffee-frapp.avif",
+          "description": "Coffee meets milk and ice in a blender for a rumble-and-tumble togetherness to create one of our most-beloved original Frappuccino® blended beverages.",
+          "stars": "200",
+          "calories": "230",
+          "sugar": "45",
+          "fat": "3",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 67,
+          "name": "Mocha Frappuccino® Blended Beverage",
+          "photoName": "/frapps/mocha-frapp.avif",
+          "detailedPhotoName": "/detailed/",
+          "description": "Coffee meets milk and ice in a blender for a rumble-and-tumble togetherness to create one of our most-beloved original Frappuccino® blended beverages.",
+          "stars": "200",
+          "calories": "230",
+          "sugar": "45",
+          "fat": "3",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 68,
+          "name": "Java Chip Frappuccino® Blended Beverage",
+          "photoName": "/frapps/java-chip-frapp.avif",
+          "detailedPhotoName": "/detailed/java-chip-frapp.avif",
+          "description": "We blend mocha sauce and Frappuccino® chips with coffee, milk and ice, then top it off with whipped cream and a mocha drizzle to bring you endless java joy.",
+          "stars": "200",
+          "calories": "440",
+          "sugar": "59",
+          "fat": "19",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 69,
+          "name": "White Chocolate Mocha Frappuccino® Blended Beverage",
+          "photoName": "/frapps/white-chocolate-frapp.avif",
+          "detailedPhotoName": "/detailed/white-chocolate-frapp.avif",
+          "description": "White chocolate Frappuccino® Roast coffee, milk and ice get together for what might be the best thing that happens to you all day. Oh, and there's whipped cream on top.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "61",
+          "fat": "17",
+          "type": "Coffee Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 70,
+          "name": "Sugar Cookie Almondmilk Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/sugar-almondmilk-frapp.avif",
+          "detailedPhotoName": "/detailed/sugar-almondmilk-frapp.avif",
+          "description": "Sugar cookie-flavored syrup combined with almondmilk and blended with ice, topped with whipped cream and red and green sprinkles.",
+          "stars": "200",
+          "calories": "310",
+          "sugar": "43",
+          "fat": "14",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 71,
+          "name": "Apple Crisp Oatmilk Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/apple-crisp-frapp.avif",
+          "detailedPhotoName": "/detailed/apple-crisp-creme-frapp.avif",
+          "description": "Flavors of apple, cinnamon and brown sugar blended with oatmilk and ice. Topped with a spiced-apple drizzle and whipped cream.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "46",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 72,
+          "name": "Pumpkin Spice Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/pumpkin-creme-frapp.avif",
+          "detailedPhotoName": "/detailed/pumpkin-creme-frapp.avif",
+          "description": "Pumpkin blended with traditional fall spice flavors, milk and ice, topped with whipped cream and pumpkin-pie spice. Helllloooooo, fall!",
+          "stars": "200",
+          "calories": "360",
+          "sugar": "47",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 73,
+          "name": "Caramel Brulée Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caramel-brulee-frapp.avif",
+          "detailedPhotoName": "/detailed/caramel-brulee-creme-frapp.avif",
+          "description": "A combination of rich caramel brulée sauce blended with milk and ice, topped with whipped cream and our crunchy caramel brulée bits for an extra-tasty holi-yay treat.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "49",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 74,
+          "name": "Chestnut Praline Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/chestnut-creme-frapp.avif",
+          "detailedPhotoName": "/detailed/chestnut-creme-frapp.avif",
+          "description": "A joyful world of deliciousness: holiday flavors of caramelized chestnuts and spices blended with milk and ice, and topped with whipped cream and spiced praline crumbs.",
+          "stars": "200",
+          "calories": "340",
+          "sugar": "43",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 75,
+          "name": "Peppermint Mocha Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/peppermint-creme-frapp.avif",
+          "detailedPhotoName": "/detailed/peppermint-creme-frapp.avif",
+          "description": "This all-about-the-flavors sip delivers a delectable blend of chocolaty-pepperminty perfection—milk, ice, mocha sauce and peppermint-flavored syrup swirled together, topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "390",
+          "sugar": "50",
+          "fat": "18",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 76,
+          "name": "Peppermint White Chocolate Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/peppermint-white-creme-frapp.avif",
+          "detailedPhotoName": "/detailed/peppermint-white-creme-frapp.avif",
+          "description": "This all-about-the-flavors sip delivers a delectable blend of white chocolaty-pepperminty perfection—milk, ice, white chocolate mocha sauce and peppermint-flavored syrup swirled together, topped with whipped cream and dark-chocolate curls.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "58",
+          "fat": "18",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 77,
+          "name": "Chocolate Cookie Crumble Crème Frappuccino®",
+          "photoName": "/frapps/cookie-crumble-frapp.avif",
+          "detailedPhotoName": "/detailed/cookie-crumble-frapp.avif",
+          "description": "Mocha sauce and Frappuccino® chips are blended with milk and ice, layered on top of whipped cream and chocolate cookie crumble and topped with vanilla whipped cream, mocha drizzle and even more chocolate cookie crumble. These layers ensure each sip is as good as the last; all the way to the end.",
+          "stars": "200",
+          "calories": "460",
+          "sugar": "46",
+          "fat": "25",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 78,
+          "name": "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/caramel-ribbon-crunch-frapp.avif",
+          "detailedPhotoName": "/detailed/caramel-ribbon-crunch-frapp.avif",
+          "description": "Buttery caramel syrup is blended with milk and ice, then topped with a layer of dark caramel sauce, whipped cream, caramel drizzle and a crunchy caramel-sugar topping—oh-so-beautifully delicious.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "46",
+          "fat": "22",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 79,
+          "name": "Strawberry Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/strawberry-frapp.avif",
+          "detailedPhotoName": "/detailed/strawberry-frapp.avif",
+          "description": "Summer's favorite berry is the star of this delicious Frappuccino® Blended Beverage—a blend of ice, milk and strawberry puree layered on top of a splash of strawberry puree and finished with vanilla whipped cream.",
+          "stars": "200",
+          "calories": "370",
+          "sugar": "51",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 80,
+          "name": "Chai Crème Frappuccino®",
+          "photoName": "/frapps/chai-frapp.avif",
+          "detailedPhotoName": "/detailed/chai-frapp.avif",
+          "description": "A creamy blend of spicy classic chai, milk and ice. Topped with sweetened whipped cream and a dash of cinnamon. Spice up your afternoon treat.",
+          "stars": "200",
+          "calories": "340",
+          "sugar": "45",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 81,
+          "name": "Double Chocolaty Chip Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/double-chocolaty-frapp.avif",
+          "detailedPhotoName": "/detailed/double-chocolaty-frapp.avif",
+          "description": "Rich mocha-flavored sauce meets up with chocolaty chips, milk and ice for a blender bash. Top it off with sweetened whipped cream and mocha drizzle for a real party in your mouth.",
+          "stars": "200",
+          "calories": "410",
+          "sugar": "47",
+          "fat": "20",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 82,
+          "name": "Matcha Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/matcha-green-frapp.avif",
+          "detailedPhotoName": "/detailed/matcha-green-frapp.avif",
+          "description": "This blend of sweetened premium matcha green tea, milk and ice—topped off with sweetened whipped cream—inspires a delicious boost and good green vibes.",
+          "stars": "200",
+          "calories": "420",
+          "sugar": "61",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 83,
+          "name": "Vanilla Bean Crème Frappuccino® Blended Crème",
+          "photoName": "/frapps/vanilla-bean-frapp.avif",
+          "detailedPhotoName": "/detailed/vanilla-bean-frapp.avif",
+          "description": "This rich and creamy blend of vanilla bean, milk and ice topped with whipped cream takes va-va-vanilla flavor to another level. To change things up, try it affogato-style with a hot espresso shot poured right over the top.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "52",
+          "fat": "16",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        },
+        {
+          "id": 84,
+          "name": "White Chocolate Crème Frappuccino® Blended Beverage",
+          "photoName": "/frapps/white-chocolate-frapp.avif",
+          "detailedPhotoName": "/detailed/white-chocolate-creme-frapp.avif",
+          "description": "A smooth blend of white chocolate sauce, milk and ice topped with whipped cream for a remarkable flavor that surprisingly wows.",
+          "stars": "200",
+          "calories": "380",
+          "sugar": "49",
+          "fat": "18",
+          "type": "Creme Frappuccino®",
+          "unavailable": false,
+          "prices": {
+            "short": 1.99,
+            "tall": 2.99,
+            "grande": 3.99,
+            "venti": 4.99
+          }
+        }
+      ],
+      "photoName": "/cats/category-frapps.avif",
+      "link": "/menu/frapps",
+      "name": "Frapps"
+    }
+  }
+]

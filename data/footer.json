@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "About Us",
+      "content": [
+        { "id": 2, "text": "Our Company", "link": "/placeholder" },
+        { "id": 3, "text": "Our Coffee", "link": "/placeholder" },
+        { "id": 4, "text": "Stories and News", "link": "/placeholder" },
+        { "id": 5, "text": "Starbucks Archive", "link": "/placeholder" },
+        { "id": 6, "text": "Investor Relations", "link": "/placeholder" },
+        { "id": 7, "text": "Customer Service", "link": "/placeholder" },
+        { "id": 8, "text": "Contact Us", "link": "/placeholder" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Careers",
+      "content": [
+        { "id": 10, "text": "Culture and Values", "link": "/placeholder" },
+        { "id": 11, "text": "Inclusion, Diversity and Equity", "link": "/placeholder" },
+        { "id": 12, "text": "College Achievement Plan", "link": "/placeholder" },
+        { "id": 13, "text": "Alumni Community", "link": "/placeholder" },
+        { "id": 14, "text": "U.S. Careers", "link": "/placeholder" },
+        { "id": 15, "text": "International Careers", "link": "/placeholder" }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Social Impact",
+      "content": [
+        { "id": 17, "text": "People", "link": "/placeholder" },
+        { "id": 18, "text": "Planet", "link": "/placeholder" },
+        { "id": 19, "text": "Environmental and Social Impact Reporting", "link": "/placeholder" }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "For Business Partners",
+      "content": [
+        { "id": 21, "text": "Landlord Support Center", "link": "/placeholder" },
+        { "id": 22, "text": "Suppliers", "link": "/placeholder" },
+        { "id": 23, "text": "Corporate Gift Card Sales", "link": "/placeholder" },
+        { "id": 24, "text": "Office and Foodservice Coffee", "link": "/placeholder" }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Order and Pick Up",
+      "content": [
+        { "id": 26, "text": "Order on the App", "link": "/placeholder" },
+        { "id": 27, "text": "Suppliers", "link": "/placeholder" },
+        { "id": 28, "text": "Order on the Web", "link": "/placeholder" },
+        { "id": 29, "text": "Delivery", "link": "/placeholder" },
+        { "id": 30, "text": "Order and Pick Up Options", "link": "/placeholder" },
+        { "id": 31, "text": "Explore and Find Coffee for Home", "link": "/placeholder" }
+      ]
+    }
+  ]
+  

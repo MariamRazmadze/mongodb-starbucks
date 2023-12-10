@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "How did the term cappuccino originate?",
+      "options": [
+        "From the habit of the Capuchin friar.",
+        "It is the French term for “foam on coffee.”",
+        "It is Italian for “frothy coffee drink.”",
+        "It was a term invented by a coffee company."
+      ],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": " What percentage of coffee drinkers prefer their coffee black?",
+      "options": ["30%", "40%", "50%", "60%"],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "What day in Japan is known as the official Coffee Day?",
+      "options": ["January 10", "June 15", "October 1", "December 23"],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "While wine is said to have about 400 distinct flavor characteristics, how many does coffee exhibit?",
+      "options": ["280", "500", "640", "800"],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Where does the word espresso come from?",
+      "options": [
+        "From the Greek Expreco, meaning “strong beverage.”",
+        "From its Latin root meaning “under pressure.”",
+        "From the first Italian machine called Espresso Machine.",
+        "From a drink served in early Viennese coffeehouses."
+      ],
+      "correctOption": 1,
+      "points": 1
+    }
+  ]
+}
