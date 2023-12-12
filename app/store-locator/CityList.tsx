@@ -66,7 +66,7 @@ function CityList({ setMapPosition }: CityListProps) {
           {filteredCities.map((city) => (
             <CityItem
               city={city}
-              key={city.id}
+              key={city._id}
               setMapPosition={setMapPosition}
               currentCity={currentCity}
               setCurrentCity={setCurrentCity}

@@ -42,7 +42,7 @@ export default function CityItem({
   currentCity,
   setCurrentCity,
 }: CityItemProps) {
-  const { cityName, address, id, storeHours } = city;
+  const { cityName, address, _id, storeHours } = city;
   const storeStatus = isStoreOpen(storeHours.open, storeHours.close);
 
   const handleClick = () => {
@@ -54,7 +54,7 @@ export default function CityItem({
     <li onClick={handleClick}>
       <Link href={`?lat=${city.position.lat}&lng=${city.position.lng}`}>
         <CityItemContainer
-          $isActive={Boolean(currentCity && id === currentCity.id)}
+          $isActive={Boolean(currentCity && _id === currentCity._id)}
         >
           <div>
             <CityName>{cityName}</CityName>
@@ -78,7 +78,7 @@ export default function CityItem({
                 <AiOutlineExclamationCircle />
               </CityIcon>
             </CityIcons>
-            {currentCity && id === currentCity.id && (
+            {currentCity && _id === currentCity._id && (
               <CityButton>Order here</CityButton>
             )}
           </div>

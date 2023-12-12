@@ -155,7 +155,7 @@ interface CityData {
     lat: number;
     lng: number;
   };
-  id: string;
+  _id: string;
   storeHours: {
     open: string;
     close: string;
@@ -186,21 +186,21 @@ interface CartState {
 
 interface OrderItem {
   id: number;
-  coffee_id: number;
-  order_id: number;
+  coffeeId: number;
+  orderId: number;
   name: string;
   quantity: number;
   size: string;
-  unit_price: number;
-  total_price: number;
+  unitPrice: number;
+  totalPrice: number;
 }
 
 interface OrderData {
-  userId?: String;
-  full_name: string;
-  phone_number: string;
-  id_number: string;
+  userId: string;
+  fullName: string;
+  phoneNumber: string;
+  idNumber: string;
   address: string;
-  items: string;
-  total_price: number;
+  items: OrderItem[];
+  totalPrice: number;
 }

@@ -28,7 +28,7 @@ export async function getRewardsData() {
 }
 
 export async function fetchCities() {
-  const res = await fetch(`${API_URL}/cities`);
+  const res = await fetch(`http://localhost:3000/api/cities`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
@@ -81,7 +81,7 @@ export async function getOrder(id: string) {
 
 export async function createOrder(newOrder: OrderData) {
   try {
-    const res = await fetch(`${API_URL}/order`, {
+    const res = await fetch(`/api/order/new`, {
       method: "POST",
       body: JSON.stringify(newOrder),
       headers: {

@@ -3,7 +3,7 @@ import Card from "@/app/UI/Card";
 import { CardP, CardTotal } from "@/styles/order/StyledOrder";
 
 function OrderItem({ item }: { item: OrderItem }) {
-  const { quantity, name, total_price, size } = item;
+  const { quantity, name, totalPrice, size } = item;
 
   return (
     <Card>
@@ -14,7 +14,7 @@ function OrderItem({ item }: { item: OrderItem }) {
         <CardP>
           <span>Size: {size}</span>
         </CardP>
-        <CardTotal>{formatCurrency(total_price)}</CardTotal>
+        <CardTotal>{formatCurrency(totalPrice)}</CardTotal>
       </div>
     </Card>
   );

@@ -52,7 +52,7 @@ export default function Map({ mapPosition, setMapPosition }: MapProps) {
         {cities.map((city) => (
           <Marker
             position={[city.position.lat, city.position.lng]}
-            key={city.id}
+            key={city._id}
             icon={coffeeIcon}
           >
             <Popup>

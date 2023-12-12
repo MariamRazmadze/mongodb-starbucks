@@ -1,0 +1,44 @@
+[
+  {
+    "cityName": "Tbilisi",
+    "address": "62 Petre Kavtaradze Street",
+    "country": "Georgia",
+    "position": {
+      "lat": 41.7202047,
+      "lng": 44.7203986
+    },
+    "id": 1,
+    "storeHours": {
+      "open": "09:00",
+      "close": "08:00"
+    }
+  },
+  {
+    "cityName": "London",
+    "address": "126 Baker Street, London",
+    "country": "UK",
+    "position": {
+      "lat": 51.51985,
+      "lng": -0.15285
+    },
+    "id": 2,
+    "storeHours": {
+      "open": "09:00",
+      "close": "08:00"
+    }
+  },
+  {
+    "cityName": "New York",
+    "address": "217 E Broadway, New York",
+    "country": "US",
+    "position": {
+      "lat": 40.7140632,
+      "lng": -73.9899462
+    },
+    "id": 3,
+    "storeHours": {
+      "open": "09:00",
+      "close": "08:00"
+    }
+  }
+]
