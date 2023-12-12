@@ -2,7 +2,7 @@ const API_URL = "https://starbucksapi.pythonanywhere.com";
 const BASE_URL = "http://localhost:3000";
 
 export async function getCoffees() {
-  const res = await fetch(`${BASE_URL}/api/coffee`, {
+  const res = await fetch(`/api/coffee`, {
     next: { revalidate: 60 },
   });
   if (!res.ok) throw Error("failed to fetch data");
@@ -10,31 +10,31 @@ export async function getCoffees() {
 }
 
 export async function getHomepageData() {
-  const res = await fetch(`${BASE_URL}/api/homepage`);
+  const res = await fetch(`/api/homepage`);
   if (!res.ok) throw Error("Failed to fetch data");
   return res.json();
 }
 
 export async function getFooterData() {
-  const res = await fetch(`${BASE_URL}/api/footer`);
+  const res = await fetch(`/api/footer`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function getRewardsData() {
-  const res = await fetch(`${BASE_URL}/api/rewards`);
+  const res = await fetch(`/api/rewards`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function fetchCities() {
-  const res = await fetch(`${BASE_URL}/api/cities`);
+  const res = await fetch(`/api/cities`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function fetchCity(id: string) {
-  const res = await fetch(`${API_URL}/cities/${id}`);
+  const res = await fetch(`/cities/${id}`);
   if (!res.ok) throw Error("Failed getting city");
 
   const data = await res.json();
@@ -65,14 +65,14 @@ export async function fetchAddress() {
 }
 
 export async function getOrders() {
-  const res = await fetch(`${BASE_URL}/api/order`);
+  const res = await fetch(`/api/order`);
   if (!res.ok) throw Error("failed to fetch data");
   const json = await res.json();
   return json.data;
 }
 
 export async function getOrder(id: string) {
-  const res = await fetch(`${BASE_URL}/api/order/${id}`);
+  const res = await fetch(`/api/order/${id}`);
   if (!res.ok) return undefined;
   const json = await res.json();
   return json;

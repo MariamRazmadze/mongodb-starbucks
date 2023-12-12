@@ -48,7 +48,7 @@ const CreateOrder = () => {
     try {
       console.log("cart", cart);
       console.log(userData?.id);
-      const res = await fetch("http://localhost:3000/api/order/new", {
+      const res = await fetch("/api/order/new", {
         method: "POST",
         body: JSON.stringify({
           userId: userData?.id,
