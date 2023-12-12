@@ -67,7 +67,9 @@ const CreateOrder = () => {
         );
       dispatch({ type: "clearCart" });
       setSubmitting(false);
-      const { orderId } = await res.json();
+      const { _id: orderId } = await res.json();
+      router.push(`/menu/order/${orderId}`);
+      console.log("orderId", orderId);
       return { id: orderId };
     } catch {
       throw Error("Failed creating your order");

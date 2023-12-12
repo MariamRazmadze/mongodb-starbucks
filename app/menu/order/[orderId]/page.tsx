@@ -10,6 +10,7 @@ type Params = {
 };
 
 export default async function OrderPage({ params: { orderId } }: Params) {
+  console.log("Received orderId:", orderId);
   const orderData: Promise<OrderData> = getOrder(orderId);
   const order: OrderData = await orderData;
   if (!order) return notFound();

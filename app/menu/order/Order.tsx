@@ -24,19 +24,10 @@ import {
 } from "@/styles/order/StyledOrder";
 import { IoIosArrowBack } from "react-icons/io";
 
-interface Order {
-  full_name: string;
-  phone_number: string;
-  id_number: string;
-  address: string;
-  items: OrderItem[];
-  total_price: number;
-}
-
 function Order({ orderId }: { orderId: string }) {
   const { data: session } = useSession();
   const userData = session?.user;
-  const [order, setOrder] = useState<Order | null>(null);
+  const [order, setOrder] = useState<OrderData | null>(null);
   const [estimatedDelivery] = useState(
     new Date(Date.now() + 30 * 60000).toISOString()
   );
@@ -62,7 +53,7 @@ function Order({ orderId }: { orderId: string }) {
     return null;
   }
 
-  const { total_price, items } = order;
+  const { totalPrice, items } = order;
 
   return (
     <StyledOrder>
@@ -103,7 +94,7 @@ function Order({ orderId }: { orderId: string }) {
         </OrderCart>
 
         <OrderContainer>
-          <p>To pay on Delivery: {formatCurrency(total_price)}</p>
+          <p>To pay on Delivery: {formatCurrency(totalPrice)}</p>
         </OrderContainer>
       </OrderWrapper>
     </StyledOrder>
