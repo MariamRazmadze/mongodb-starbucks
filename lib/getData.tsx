@@ -1,6 +1,6 @@
 // const API_URL = "https://starbucksapi.pythonanywhere.com";
 // const BASE_URL = "http://localhost:3000";
-const BASE_URL = process.env.BASE_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export async function getCoffees() {
   const res = await fetch(`${BASE_URL}/api/coffee`, {
