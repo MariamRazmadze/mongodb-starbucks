@@ -33,15 +33,16 @@ export default function RewardSteps() {
           <RewardsTitle>Get your favorites for free</RewardsTitle>
         </TitleWrapper>
         <RewardButtons>
-          {content.map((item, index) => (
-            <Tab
-              key={item.id}
-              num={index}
-              activeTab={activeTab}
-              onClick={setActiveTab}
-              item={item}
-            />
-          ))}
+          {content &&
+            content.map((item, index) => (
+              <Tab
+                key={item.id}
+                num={index}
+                activeTab={activeTab}
+                onClick={setActiveTab}
+                item={item}
+              />
+            ))}
           <Underline $left={activeTab * 20} />
         </RewardButtons>
 

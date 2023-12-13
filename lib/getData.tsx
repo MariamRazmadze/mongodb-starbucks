@@ -12,28 +12,28 @@ export async function getCoffees() {
 }
 
 export async function getHomepageData() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/homepage`);
   if (!res.ok) throw Error("Failed to fetch data");
   return res.json();
 }
 
 export async function getFooterData() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/footer`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function getRewardsData() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/rewards`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function fetchCities() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/cities`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
@@ -72,7 +72,7 @@ export async function fetchAddress() {
 }
 
 export async function getOrders() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/order`);
   if (!res.ok) throw Error("failed to fetch data");
   const json = await res.json();
