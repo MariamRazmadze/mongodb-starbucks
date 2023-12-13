@@ -16,6 +16,9 @@ async function getCoffeeById(
 ): Promise<CoffeeItem | undefined> {
   const coffeeData: Promise<CoffeeData> = getCoffees();
   const coffeedata: CoffeeData = await coffeeData;
+  if (!coffeedata) {
+    return undefined;
+  }
 
   const coffees: CoffeeItem[] = coffeedata.flatMap(
     (coffee: CoffeeType) => coffee.items
