@@ -3,7 +3,7 @@
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export async function getCoffees() {
-  if (!BASE_URL) return null;
+  if (!BASE_URL) return [];
   const res = await fetch(`${BASE_URL}/api/coffee`, {
     next: { revalidate: 60 },
   });
