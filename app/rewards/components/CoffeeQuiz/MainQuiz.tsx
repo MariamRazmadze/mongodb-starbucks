@@ -23,7 +23,7 @@ export default function MainQuiz() {
     0
   );
   useEffect(() => {
-    fetch("http://localhost:3000/api/quiz")
+    fetch(`/api/quiz`)
       .then((res: Response) => res.json())
       .then((data) =>
         dispatchQuiz({

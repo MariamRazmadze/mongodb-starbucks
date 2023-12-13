@@ -3,6 +3,7 @@
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export async function getCoffees() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/coffee`, {
     next: { revalidate: 60 },
   });
@@ -11,30 +12,35 @@ export async function getCoffees() {
 }
 
 export async function getHomepageData() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/homepage`);
   if (!res.ok) throw Error("Failed to fetch data");
   return res.json();
 }
 
 export async function getFooterData() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/footer`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function getRewardsData() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/rewards`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function fetchCities() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/cities`);
   if (!res.ok) throw Error("failed to fetch data");
   return res.json();
 }
 
 export async function fetchCity(id: string) {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/cities/${id}`);
   if (!res.ok) throw Error("Failed getting city");
 
@@ -66,6 +72,7 @@ export async function fetchAddress() {
 }
 
 export async function getOrders() {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/order`);
   if (!res.ok) throw Error("failed to fetch data");
   const json = await res.json();
@@ -73,6 +80,7 @@ export async function getOrders() {
 }
 
 export async function getOrder(id: string) {
+  if (!BASE_URL) return null;
   const res = await fetch(`${BASE_URL}/api/order/${id}`);
   if (!res.ok) return undefined;
   const json = await res.json();
