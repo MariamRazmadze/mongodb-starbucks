@@ -29,7 +29,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `order#${order.id}`,
+    title: `order#${order._id}`,
   };
 }
 
